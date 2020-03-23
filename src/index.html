@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover"
+    />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="globalHeader">
+      <form
+        class="searchForm"
+        method="get"
+        action="https://www.google.com/search"
+      >
+        <input
+          autocomplete="on"
+          name="query"
+          type="text"
+          placeholder="search on google"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <a href="https://github.com">
+            <div class="site">
+              <div class="logo">
+                <img src="./img/GitHub-Mark.png" alt="" />
+              </div>
+              <div class="link">Github</div>
+              <button class="close">
+                <svg class="icon">
+                  <use xlink:href="#icon-close1"></use>
+                </svg>
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/">
+            <div class="site">
+              <div class="logo">
+                <img
+                  src="img/1024px-YouTube_social_white_squircle_(2017).svg.png"
+                  alt=""
+                />
+              </div>
+              <div class="link">Youtube</div>
+              <button class="close">
+                <svg class="icon">
+                  <use xlink:href="#icon-close1"></use>
+                </svg>
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://sp19.datastructur.es/">
+            <div class="site">
+              <div class="logo">CS</div>
+              <div class="link">CS61B</div>
+              <button class="close">
+                <svg class="icon">
+                  <use xlink:href="#icon-close1"></use>
+                </svg>
+              </button>
+            </div>
+          </a>
+        </li>
+        <li class="last">
+          <div class="addButton">
+            <div class="icon-wrapper">
+              <svg class="icon">
+                <use xlink:href="#icon-add"></use>
+              </svg>
+            </div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_1676606_b2z3f23n8cj.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
